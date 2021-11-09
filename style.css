@@ -325,34 +325,22 @@ section .title::after{
 .contact .title::after,
 .teams .title::after{
     background: #000000;
-    content: "what i provide";
 }
 .contact .title::after{
     content: "get in touch";
 }
+.contact .contact-me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+ }
 .contact .contact-content{
    display: flex;
    justify-content: space-evenly;
 }
-.contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.contact .contact-content .contact-me .icons{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 0;
-}
-.contact .contact-content .row{
-    display: flex;
-    height: 65px;
-    align-items: center;
-}
-.contact .contact-content .row .info{
-    margin-left: 30px;
-}
-.contact .contact-content .row i{
+.contact .contact-content i{
     font-size: 25px;
     color: #B1271D;
 }

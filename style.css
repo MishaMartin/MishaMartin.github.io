@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .projects, .skills, .teams, .contact{
+.about, .projects, .skills, .contact{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -258,18 +258,20 @@ section .title::after{
 }
 
 /* projects section styling */
-.projects, .teams{
+.projects{
     color:#FCFCFC;
     background: #000000;
 }
 .projects .title::before,
-.teams .title::before{
+.title::before{
     background: #FCFCFC;
 }
 .projects .title::after,
-.teams .title::after{
+.title::after{
     background: #000000;
-    content: "my recent work";
+}
+.projects .title::after{
+    content: "recent work";
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);
@@ -318,12 +320,10 @@ section .title::after{
     color:#FCFCFC;
     background-color: #000000;
 }
-.contact .title::before,
-.teams .title::before{
+.contact .title::before{
     background: #FCFCFC;
 }
-.contact .title::after,
-.teams .title::after{
+.contact .title::after{
     background: #000000;
 }
 .contact .title::after{
@@ -343,6 +343,7 @@ section .title::after{
 .contact .contact-content i{
     font-size: 25px;
     color: #B1271D;
+    padding: 10px;
 }
 .contact .contact-content .info .head{
     color: #FCFCFC;
@@ -351,7 +352,12 @@ section .title::after{
 .contact .contact-content .info .sub-title{
     color: darkgrey;
 }
-
+.contact .contact-content .row{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {

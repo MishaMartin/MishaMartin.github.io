@@ -273,6 +273,10 @@ section .title::after{
 .projects .title::after{
     content: "recent work";
 }
+.projects .proj-content{
+    display: flex;
+    justify-content: center;
+}
 .projects .proj-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -292,7 +296,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .projects .proj-content .card i{
-    font-size: 50px;
+    font-size: 45px;
     color: #B1271D;
     transition: color 0.3s ease;
 }

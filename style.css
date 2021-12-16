@@ -275,7 +275,7 @@ section .title::after{
 }
 .projects .proj-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);

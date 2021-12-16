@@ -273,10 +273,6 @@ section .title::after{
 .projects .title::after{
     content: "recent work";
 }
-.projects .proj-content{
-    display: flex;
-    justify-content: space-around;
-}
 .projects .proj-content .card{
     width: calc(33% - 20px);
     background: #222;

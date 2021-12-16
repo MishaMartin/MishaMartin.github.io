@@ -273,6 +273,10 @@ section .title::after{
 .projects .title::after{
     content: "recent work";
 }
+.projects .proj-content{
+    display: flex;
+    justify-content: space-around;
+}
 .projects .proj-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -304,6 +308,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 
 
 /* skills section styling */

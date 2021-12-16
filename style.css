@@ -276,6 +276,7 @@ section .title::after{
 .projects .proj-content{
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);

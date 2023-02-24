@@ -315,6 +315,10 @@ section .title::after{
 .skills .skills-content i{
     font-size: 100px;
 }
+.svg{
+    width: 100px;
+    height: 100px;
+}
 
 
 /* contact section styling */
